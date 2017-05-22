@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "backend for project_meme",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amprku/project_meme.git"
+  },
+  "author": "Amit Kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amprku/project_meme/issues"
+  },
+  "homepage": "https://github.com/amprku/project_meme#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "chokidar": "^1.7.0",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.0",
+    "node-dir": "^0.1.16",
+    "node-restful": "^0.2.6",
+    "shortid": "^2.2.8"
+  }
+}
