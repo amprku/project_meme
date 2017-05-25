@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <div ng-app="myApp">
+        <div ng-controller="myCtrl">
+            <ul>
+                <li ng-repeat="meme in items">{{meme.fileName}}</li>
+            </ul>
+            <ul>
+                <li ng-repeat="meme in items">{{meme.relativePath}}</li>
+            </ul>
+        </div>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>

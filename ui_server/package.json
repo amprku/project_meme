@@ -1,0 +1,14 @@
+{
+  "name": "ui_server",
+  "version": "1.0.0",
+  "description": "front end for project_meme",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Amit Kulkarni",
+  "license": "ISC"
+}
